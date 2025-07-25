@@ -1,0 +1,7 @@
+This repository is made available for non-commercial academic use only.
+You are free to use, modify, and redistribute the code and dataset for research and educational purposes, provided that proper attribution is given to:
+
+- Antonios Kalampakas (this repository)
+- T. Opsahl (dataset source)
+
+Commercial use is prohibited without explicit written permission.
