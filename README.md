@@ -2,7 +2,7 @@
 
 This repository contains the code used in the paper:
 
-**"Hypercompositional Modeling of Directed Fuzzy Networks via Strong Path Structures"**  
+**"Quotient-Based Structural Abstraction in Fuzzy Trust Networks via Strong Path Hyperoperations"**  
 by Antonios Kalampakas (2025)
 
 It implements vertex-based fuzzy path hyperoperations, threshold-based equivalence relations, and quotient fuzzy graphs on a Facebook-like trust network derived from private message exchanges.
