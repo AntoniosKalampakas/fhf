@@ -1,43 +1,51 @@
-This repository contains the complete reproducible code for the paper:
+This repository contains the complete reproducible code for the following papers:
 
-"Quotient-Based Structural Abstraction in Fuzzy Trust Networks via Strong Path Hyperoperations"  
-by Antonios Kalampakas 
+1. Quotient-Based Structural Abstraction in Fuzzy Trust Networks via Strong Path Hyperoperations
+   
+This project develops a computational framework for:
 
-The project develops a computational framework for:
-- vertex-based fuzzy path hyperoperations on directed fuzzy graphs
-- max–min connectivity strengths and strongest strong paths
-- a threshold-based equivalence relation R_V^σ
-- quotient fuzzy graphs under mutual strongest connectivity
-- structural abstraction and influence analysis on a Facebook-like trust network derived from private message exchanges
+vertex-based fuzzy path hyperoperations on directed fuzzy graphs
+max–min connectivity strengths and strongest strong paths
+a threshold-based equivalence relation 
+quotient fuzzy graphs under mutual strongest connectivity
+structural abstraction and influence analysis on a Facebook-like trust network derived from private message exchanges
 
-## Features
+Features
 
 The code implements:
-- log-normalization of trust weights
-- extraction of the largest strongly connected component
-- selection of a top-weighted subgraph
-- computation of Con_F(u, v)
-- construction of the strong-edge subgraph
-- enumeration of strongest strong paths
-- the vertex fuzzy path hyperoperation u ⊙_F v
-- the equivalence relation R_V^σ
-- quotient fuzzy graph construction
-- Reachability Impact (RI) and Relay Score (RS)
-- class-level centrality aggregation
-- Spearman correlations and scatter plots
 
-All results used in the paper are produced automatically.
+log-normalization of trust weights
+extraction of the largest strongly connected component
+selection of a top-weighted subgraph
+computation of ConF(u,v)
+construction of the strong-edge subgraph
+enumeration of strongest strong paths
+the vertex fuzzy path hyperoperation 
+the equivalence relation 
+quotient fuzzy graph construction
+Reachability Impact (RI) and Relay Score (RS)
+class-level centrality aggregation
+Spearman correlations and scatter plots
 
-## Repository structure
+All results used in the paper are produced automatically..
 
-- fhf_pipeline.py – complete end-to-end pipeline
-- data/ – input Facebook-like weighted edges
-- src/ – optional modular implementation
-- outputs/ – generated figures and metrics (created automatically)
 
-## How to reproduce all results
+2. Strong-Path PageRank on Directed Fuzzy Graphs
 
-From the repository root, run:
 
-```bash
-python fhf_pipeline.py
+This folder contains all code supporting the second paper, where PageRank is computed on quotient fuzzy graphs using strongest-path semantics.
+It includes:
+
+construction of coarse and fine quotient graphs
+computation of class-level PageRank:
+classical PageRank (PR)
+weighted PageRank (WPR)
+strong-path PageRank (SP-PR)
+vertex membership extraction
+clamped edge-membership construction
+numerical solution of the strong-path PageRank system
+scripts for generating all figures in the paper:
+Figure 1: quotient graph visualization
+Figure 2: PR vs WPR vs SP-PR bar chart
+Figure 3: heatmap of differences SP-PR vs PR
+All numerical values, PageRank vectors, and figures are produced directly from the repository code.
