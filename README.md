@@ -1,13 +1,12 @@
 This repository contains the complete reproducible code for the following papers:
 
-1. Quotient-Based Structural Abstraction in Fuzzy Trust Networks via Strong Path Hyperoperations
+1. Quotient-Based Structural Abstraction in Fuzzy Trust Networks via Strong Path Hyperoperations.
 This project develops a computational framework for:
 vertex-based fuzzy path hyperoperations on directed fuzzy graphs
 max–min connectivity strengths and strongest strong paths
 a threshold-based equivalence relation 
 quotient fuzzy graphs under mutual strongest connectivity
-structural abstraction and influence analysis on a Facebook-like trust network derived from private message exchanges
-
+structural abstraction and influence analysis on a Facebook-like trust network derived from private message exchanges.
 The code implements:
 log-normalization of trust weights
 extraction of the largest strongly connected component
@@ -23,7 +22,7 @@ class-level centrality aggregation
 Spearman correlations and scatter plots
 
 
-2. Strong-Path PageRank on Directed Fuzzy Graphs
+2. Strong-Path PageRank on Directed Fuzzy Graphs.
 This folder contains all code supporting the second paper, where PageRank is computed on quotient fuzzy graphs using strongest-path semantics.
 It includes:
 construction of coarse and fine quotient graphs
