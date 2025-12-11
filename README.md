@@ -22,8 +22,6 @@ Reachability Impact (RI) and Relay Score (RS)
 class-level centrality aggregation
 Spearman correlations and scatter plots
 
-All results used in the paper are produced automatically..
-
 
 2. Strong-Path PageRank on Directed Fuzzy Graphs
 This folder contains all code supporting the second paper, where PageRank is computed on quotient fuzzy graphs using strongest-path semantics.
